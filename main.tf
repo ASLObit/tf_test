@@ -7,6 +7,6 @@ resource "aws_instance" "my_instance" {
   instance_type = "t2.micro"
   
   tags = {
-    Name = "terraform-example-ASLO"
+    Name = "terraform-example-ASLO2"
   }
 }
