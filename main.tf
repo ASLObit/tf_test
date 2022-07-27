@@ -5,7 +5,7 @@ provider "aws" {
 variable "server_port" {
   description = "The port the server will use for HTTP requests"
   type = number
-  default = 8083
+  default = 8084
 }
 resource "aws_instance" "my_instance" {
   ami   = "ami-052efd3df9dad4825"
