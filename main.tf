@@ -14,14 +14,14 @@ resource "aws_instance" "my_instance" {
 
   user_data = <<-EOF
               #!/bin/bash
-              echo "Hello, World Enano" > index.html
+              echo "Hello, World Andrés" > index.html
               nohup busybox httpd -f -p ${var.server_port} &
               EOF
 
   user_data_replace_on_change = true
   
   tags = {
-    Name = "terraform-example-ASLO2"
+    Name = "terraform-example-Rey"
   }
 }
 
